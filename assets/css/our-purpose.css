@@ -1,0 +1,63 @@
+/* Page Banner */
+.page-banner {
+  background-color: #ffffff;
+}
+.page-banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 75px;
+}
+
+/* Vision & Mission */
+.vision-mission-section h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  text-align: start;
+}
+
+.vision-mission-section p {
+  font-size: 15px;
+  color: #555;
+  text-align: start;
+}
+
+/* Values */
+.values-section {
+  background-color: #ffffff;
+}
+
+.values-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.values-section .value-box {
+  background-color: #fff;
+  border-left: 4px solid #4b8ef1;
+  transition: 0.3s;
+}
+
+.values-section .value-box:hover {
+  background-color: #f8f9fa;
+}
+
+/* Insights Section */
+.insights-section h2 {
+  font-weight: 700;
+}
+
+.insight-card img {
+  border-radius: 12px;
+}
+
+.insight-card h6 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.insight-card p {
+  font-size: 14px;
+  color: #666;
+}
+
