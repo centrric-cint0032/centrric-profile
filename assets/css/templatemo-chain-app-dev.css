@@ -288,6 +288,13 @@ header
 --------------------------------------------- 
 */
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
 .background-header {
   background-color: #fff !important;
   height: 80px!important;
