@@ -30,6 +30,7 @@
 
 .about-cards {
   padding: 60px 0 100px;
+  margin-top: 10rem;
 }
 
 .about-grid {
@@ -44,9 +45,9 @@
 
 .about-card img {
   width: 100%;
-  height: 300px;
+  height: 200px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 5px;
   margin-bottom: 20px;
 }
 
