@@ -1483,7 +1483,7 @@ footer .section-heading {
 }
 
 footer .section-heading h4 {
-  line-height: 45px;
+  line-height: 70px;
   color: #fff;
   margin-left: 13%;
   margin-right: 13%;
@@ -1525,8 +1525,9 @@ footer #search button:hover {
 }
 
 .footer-widget .logo img {
-  max-width: 96px;
+  max-width: 80%;
   margin-bottom: 30px;
+  
 }
 
 .footer-widget h4 {
@@ -1534,6 +1535,7 @@ footer #search button:hover {
   color: #fff;
   font-weight: 700;
   margin-bottom: 30px;
+  margin-left: 20px;
 }
 
 .footer-widget p {
