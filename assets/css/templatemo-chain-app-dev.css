@@ -433,14 +433,15 @@ header {
   letter-spacing: 1px;
 }
 
+
+
+
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
   color:  #01508c!important;
 }
 
-.header-area .main-nav .nav li:last-child a.active {
-  color: #fff !important;
-}
+
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
@@ -1189,7 +1190,16 @@ The Clients
 ---------------------------------------------
 */
 
-.the-clients {
+
+.client-grid-section h4{
+  font-weight: 300;
+}
+
+.client-grid-section p{
+ color: #000;
+}
+
+/* .the-clients {
   margin-top: 130px;
 }
 
@@ -1326,7 +1336,7 @@ The Clients
 .the-clients .nacc .thumb .down-content .right-content span {
   color: #2a2a2a;
 }
-
+ */
 
 /* 
 ---------------------------------------------
