@@ -1,11 +1,19 @@
-/* Page Banner */
 .page-banner {
-  background-color: #ffffff;
+  background-image: url('../images/values\ bg.jpg'); /* ✅ update path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 100px;     /* ✅ to clear the fixed header */
+  padding: 100px 0;      /* ✅ vertical space inside the banner */
+  color: #ffff;          /* ✅ ensures heading text is visible */
+  text-align: center;
+  position: relative;
+  z-index: 1;
 }
 .page-banner h1 {
   font-size: 50px;
   font-weight: bold;
-  padding-top: 75px;
+  margin: 0;
 }
 
 /* Vision & Mission */
@@ -18,7 +26,7 @@
 
 .vision-mission-section p {
   font-size: 15px;
-  color: #555;
+  color: #333;
   text-align: start;
 }
 
@@ -33,13 +41,15 @@
 }
 
 .values-section .value-box {
-  background-color: #fff;
-  border-left: 4px solid #4b8ef1;
+  background-color: #01508c;
+  border-left: 4px solid #01508c;
   transition: 0.3s;
+  color: #f8f9fa;
 }
 
 .values-section .value-box:hover {
   background-color: #f8f9fa;
+  color: #333;
 }
 
 /* Insights Section */
@@ -48,7 +58,7 @@
 }
 
 .insight-card img {
-  border-radius: 12px;
+  height: 17rem;
 }
 
 .insight-card h6 {
@@ -58,6 +68,6 @@
 
 .insight-card p {
   font-size: 14px;
-  color: #666;
+  color: #f8f9fa
 }
 

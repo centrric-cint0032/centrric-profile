@@ -288,6 +288,13 @@ header
 --------------------------------------------- 
 */
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
 .background-header {
   background-color: #fff !important;
   height: 80px!important;
@@ -400,7 +407,7 @@ header
 .header-area .main-nav .nav li:nth-child(6) a ,
 .background-header .main-nav .nav li:nth-child(6) a {
   padding: 0px 20px !important;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .header-area .main-nav .nav li:last-child a:hover ,
@@ -412,9 +419,9 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 15px;
-  color: #2a2a2a;
+  color: white;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -426,14 +433,15 @@ header
   letter-spacing: 1px;
 }
 
+
+
+
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
   color:  #01508c!important;
 }
 
-.header-area .main-nav .nav li:last-child a.active {
-  color: #fff !important;
-}
+
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
@@ -901,10 +909,10 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/launch.jpeg);
+  background-image: url(../images/OUR-STORY\ 3.jpg);
   background-repeat: no-repeat;
    background-position: right center;
-  background-size: contain;
+  background-size: cover;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -915,6 +923,7 @@ Banner Style
 
 .main-banner .left-content {
   margin-right: 15px;
+  
 }
 
 .main-banner .left-content h2 {
@@ -924,11 +933,13 @@ Banner Style
   line-height: 70px;
   font-size: 50px;
   margin-bottom: 20px;
+  color: #DDD;
+
 }
 
 .main-banner .left-content p {
   margin-bottom: 45px;
-  color: #2a2a2a;
+  color: #DDD;
   font-weight: 400;
 }
 
@@ -964,11 +975,13 @@ Services Style
 .services {
 padding-top: 130px;
   position: relative;
-  background-image: url(../images/footer-bg.jpeg); /* ✅ your background */
-  background-size: cover;
-  background-position: center center;
+  background-image: url(../images/freepik__3d-rendering-abstract-spiral-smear-of-deep-blue-pa__39751.jpeg); /* ✅ your background */
+  background-size: 40%;
+  background-position-x: left;
+  background-position-y: bottom;
   background-repeat: no-repeat;
   z-index: 1;
+  color: #000;
 }
 
 .services  .section-heading p {
@@ -1011,8 +1024,20 @@ padding-top: 130px;
   margin-bottom: 80px;
 }
 
+.services .section-heading h4{
+ font-weight: 300;
+}
+
 .services .section-heading .line-dec {
   margin: 0 auto;
+}
+
+.text-button a{
+  color: #01508c;
+}
+
+.text-button a:hover{
+  color: white;
 }
 
 .service-item {
@@ -1046,6 +1071,7 @@ padding-top: 130px;
   transition: all .3s;
   font-size: 15px;
   margin-bottom: 20px;
+  color: #000;
 }
 
 .service-item:hover h4,
@@ -1059,7 +1085,7 @@ padding-top: 130px;
 }
 
 .first-service:hover .icon {
-  background-image: url(../images/service-icon-hover-01.png);
+  background-image: url(../images/service-icon-01.png);
 }
 
 .second-service .icon {
@@ -1088,7 +1114,7 @@ padding-top: 130px;
 }
 
 .service-item:hover {
-  background-image: url(../images/service-bg.jpg);
+  background-image: url(../images/service\ hover\ image1\ \(2\).jpg);
   background-position: right top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1105,10 +1131,25 @@ About Us
 .about-us.section {
   padding: 100px 0;
   background-color: #ffffff;
+  margin-top: 5rem;
 }
 
 .about-us .section-heading {
   max-width: 100%;
+}
+
+.about-us .section-heading h4 {
+ font-weight: 300;
+}
+
+
+.about-us .section-heading h2 {
+ font-weight: 300;
+}
+
+.about-us .section-heading p {
+ font-weight: 300;
+ color: #000;
 }
 
 .about-us .about-media img,
@@ -1119,10 +1160,27 @@ About Us
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
 }
 
-.about-us .gradient-button a {
-  padding: 12px 30px;
-  font-size: 16px;
+.about-us  a {
+   padding: 12px 30px;
+  background-color: transparent; /* Remove background */
+  color: #01508c; /* Use your border color for text to match */
+  font-weight: 300;
+  border: 1px solid #01508c; /* Define full border */
+  transition: 0.3s ease;
+  text-decoration: none; /* Optional: removes underline */
+  display: inline-block; /* Helps apply padding correctly */
+  border-radius: 4px
 }
+
+.about-us a:hover {
+  background-color: #01508c; /* Fill background on hover */
+  color: white; /* Change text color on hover */
+}
+
+
+
+
+
 
 
 
@@ -1132,7 +1190,16 @@ The Clients
 ---------------------------------------------
 */
 
-.the-clients {
+
+.client-grid-section h4{
+  font-weight: 300;
+}
+
+.client-grid-section p{
+ color: #000;
+}
+
+/* .the-clients {
   margin-top: 130px;
 }
 
@@ -1269,7 +1336,7 @@ The Clients
 .the-clients .nacc .thumb .down-content .right-content span {
   color: #2a2a2a;
 }
-
+ */
 
 /* 
 ---------------------------------------------
@@ -1402,7 +1469,7 @@ Footer Style
 */
 
 footer {
-  background-image: url(../images/footer-bg.jpeg);
+  background-image: url(../images/OUR-STORY\ 1.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;

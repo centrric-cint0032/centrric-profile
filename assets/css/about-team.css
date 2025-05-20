@@ -1,0 +1,106 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Banner */
+.team-banner {
+  background-image: url('../images/team\ section\ background.jpg'); /* Your background image */
+  background-size: cover;
+  background-position: center;
+  padding: 160px 0 100px;
+  margin-top: 100px; /* for sticky header */
+  position: relative;
+}
+.team-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 76, 97, 0.7); /* dark cerulean overlay */
+  z-index: 1;
+}
+.team-banner .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Section Headings */
+h2 {
+  color: black;
+  font-weight: 300;
+ 
+}
+
+/* Team Cards */
+.team-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.team-card img {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.team-card h5,
+.team-card h6 {
+  color: black;
+  font-weight: 600;
+}
+
+.team-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.life-section p {
+  font-size: 16px;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+
+
+.team-cta-updated h2 {
+  color: #333;
+  font-size: 80px;
+  text-align: start;
+  font-weight: 300;
+}
+
+.team-cta-updated p {
+  font-size: 16px;
+  color: #333;
+  text-align: start;
+}
+
+.team-cta-updated .btn {
+  
+ color: #333;
+  font-weight: 500;
+  background-color: #01508c;
+  transition: 0.3s ease;
+   color: #fff;
+   border: none;
+}
+
+.team-cta-updated .btn:hover {
+  background-color: #01508c;
+  color: #fff;
+}
+
+
+
+#lifeCarousel img {
+  max-height: 400px;         /* 🔧 Reduce as needed */
+  object-fit: cover;         /* Ensures images fill the frame */
+  width: 100%;
+  border-radius: 12px;
+}
+
+
+
